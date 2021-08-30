@@ -38,7 +38,7 @@ sources:
             error_after: {count: 24, period: hour}
           description: Each payment per row
           columns:
-            - name : payment_id
+            - name : id
               description: Primary key of payment table
               tests:
                 - unique
